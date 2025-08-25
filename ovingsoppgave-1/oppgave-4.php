@@ -8,13 +8,13 @@
 
   $summen=$tall1 + $tall2;  
   $differansen=$tall1 - $tall2;
-$produktet=$tall1 * $tall2;
+  $produktet=$tall1 * $tall2;
 	$kvotienten=$tall1 / $tall2;
 			
   print ("Tall 1 er $tall1 <br />");
   print ("Tall 2 er $tall2 <br />");
-print ("<br />");
+  print ("<br />");
   print ("Summen er $summen <br />");
   print ("Differansen er $differansen <br />"); 
-print ("Produktet er $produktet <br />");
-print ("Kvotienten er $kvotienten <br />");
+  print ("Produktet er $produktet <br />");
+  print ("Kvotienten er $kvotienten <br />");
