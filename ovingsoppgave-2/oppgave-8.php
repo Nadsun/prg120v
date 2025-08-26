@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eksempel 2</title>
+  <title>Oppgave 8</title>
 </head>
 <body>
-  <h3>Eksempel 2</h3>
+  <h3>Oppgave 8</h3>
     
   <form method="post" action="" id="eksempel2" name="eksempel2">
     Hva er 3 ganger 3 ? <input type="text" id="svar" name="svar" required  /> <br />
