@@ -11,14 +11,14 @@
     }
   else if ($svar == "j")  
     {
-      print("Du har svart j på spørsmålet om du er student ");
+      print("Du har svart ja på spørsmålet om du er student ");
     }
   else if ($svar == "n") 
     {
-      print("Du har svart n på spørsmålet om du er student ");
+      print("Du har svart nei på spørsmålet om du er student ");
     }
   else  
     {
-      print("Du har ikke svart j eller n på spørsmålet om du er student ");
+      print("Du har ikke svart ja eller nei på spørsmålet om du er student ");
     }
 ?>
