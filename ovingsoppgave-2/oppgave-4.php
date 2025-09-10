@@ -13,19 +13,19 @@
     }
   else if ($gift == "j" || $gift == "J" || $gift == "ja" || $gift == "JA" || $gift == "Ja" and $barn == "j"|| $barn == "J" || $barn == "ja" || $barn == "JA" || $barn == "Ja")  
     {   
-      print("Du gift og har barn, så hyggelig for deg da ");
+      print("Du gift og har barn, så hyggelig");
     }
   else if ($gift == "j"|| $gift == "J" || $gift == "ja" || $gift == "JA" || $gift == "Ja" and $barn == "n"|| $barn == "N" || $barn == "nei" || $barn == "NEI" || $barn == "Nei")  
     {   
-      print("Du er gift og har ikke bar, så sykt digg da");
+      print("Du er gift og har ikke bar");
     }
   else if ($gift == "n" || $gift == "N" || $gift == "nei" || $gift == "NEI" || $gift == "Nei" and $barn == "n" || $barn == "N" || $barn == "nei" || $barn == "NEI" || $barn == "Nei")
     {   
-      print("Du er ikke gift og har ikke barn, så trist.. er du ikke ensom? ");
+      print("Du er ikke gift og har ikke barn");
     }
   else if ($gift == "n"|| $gift == "N" || $gift == "nei" || $gift == "NEI" || $gift == "Nei" and $barn == "j"|| $barn == "J" || $barn == "ja" || $barn == "JA" || $barn == "Ja")
     {   
-      print("Du er ikke gift, men du har barn.. Det er en synd, bare sier det. ");
+      print("Du er ikke gift, men du har barn..");
     }
   else  
     {   
