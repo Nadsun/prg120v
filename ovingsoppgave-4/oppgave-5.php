@@ -44,7 +44,7 @@
 
   if ($lovligKlassekode)  /* klassekode er  korrekt fylt ut */
     {
-      print("Klassekode er korrekt fylt ut <br />");
+      print("Klassekode $klassekode, er korrekt fylt ut <br />");
     }
 
 ?>
