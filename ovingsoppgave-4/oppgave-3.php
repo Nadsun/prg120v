@@ -23,7 +23,7 @@
       $del2=substr($emnekode,3,3);   /* henter ut de 3 neste tegnene */
       $del3=substr($emnekode,6,1);   /* henter ut det siste tegnet */
 
-      if(!ctype_alpha($del1))  /* de 3 første tegnene inneholde ikke bare bokstaver */
+      if(!ctype_alpha($del1))  /* de 3 første tegnene inneholder ikke bare bokstaver */
         {
           $lovligEmnekode=false;
           print("Tegn 1-3 inneholder ikke bare bokstaver <br />");
