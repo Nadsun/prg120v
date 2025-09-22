@@ -1,5 +1,14 @@
 <?php
-</table>
+/**
+ * Export to PHP Array plugin for PHPMyAdmin
+ * @version 5.2.1deb1+deb12u1
+ */
+
+/**
+ * Database `140829`
+ */
+
+/* `140829`.`poststed` */
 $poststed = array(
   array('postnr' => '3117','poststed' => 'Tønsberg'),
   array('postnr' => '3124','poststed' => 'Tønsberg'),
