@@ -13,7 +13,7 @@
 </form>
 
 <?php 
-  if (isset($_POST ["registrerStudiumKnapp"]))
+  if (isset($_POST ["registrerEmneKnapp"]))
     {
       $emnekode=$_POST ["emnekode"];
       $emnenavn=$_POST ["emnenavn"];
