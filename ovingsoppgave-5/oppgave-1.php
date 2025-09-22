@@ -17,7 +17,7 @@
 
   for ($r=1;$r<=$antallRader;$r++)
     {
-      $rad=mysqli_fetch_array($sqlResultat);  /* ny rad hentet fra sp�rringsresultatet */
+      $rad=mysqli_fetch_array($sqlResultat);  /* ny rad hentet fra spørringsresultatet */
       $postnr=$rad["postnr"];        /* ELLER $postnr=$rad[0]; */
       $poststed=$rad["poststed"];    /* ELLER $poststed=$rad[1]; */
 
