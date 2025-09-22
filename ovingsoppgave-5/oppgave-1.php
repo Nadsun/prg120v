@@ -40,7 +40,7 @@
 
   print ("<h3>Registrerte emner</h3>");
   print ("<table border=1>");  
-  print ("<tr><th align=left>Studiumkode</th> <th align=left>Studiumnavn</th></tr>"); 
+  print ("<tr><th align=left>Emnekode</th> <th align=left>Emnenavn</th> <th align=left>Studiumnkode</th></tr>"); 
 
   for ($r=1;$r<=$antallRader;$r++)
     {
