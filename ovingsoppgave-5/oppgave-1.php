@@ -1,3 +1,4 @@
+<?php
 </table>
 $poststed = array(
   array('postnr' => '3117','poststed' => 'Tønsberg'),
