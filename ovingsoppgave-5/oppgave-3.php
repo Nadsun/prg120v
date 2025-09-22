@@ -37,7 +37,7 @@
             }
           else
             {	  
-              $sqlSetning="DELETE FROM studiumkode WHERE studiumkode='$studiumkode';";
+              $sqlSetning="DELETE FROM studium WHERE studiumkode='$studiumkode';";
               mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; slette data i databasen");
                 /* SQL-setning sendt til database-serveren */
 		
