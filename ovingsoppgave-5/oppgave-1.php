@@ -1,19 +1,27 @@
-<?php
-/**
- * Export to PHP Array plugin for PHPMyAdmin
- * @version 5.2.1deb1+deb12u1
- */
+<?php  /* vis-alle-poststeder */
+/*
+/*  Programmet skriver ut alle registrerte poststeder
+*/
+  include("db-tilkobling.php");  /* tilkobling til database-serveren utf�rt og valg av database foretatt */
 
-/**
- * Database `140829`
- */
+  $sqlSetning="SELECT * FROM poststed;";
+  
+  $sqlResultat=mysqli_query($db,$sqlSetning) or die ("ikke mulig &aring; hente data fra databasen");
+    /* SQL-setning sendt til database-serveren */
+	
+  $antallRader=mysqli_num_rows($sqlResultat);  /* antall rader i resultatet beregnet */
 
-/* `140829`.`poststed` */
-$poststed = array(
-  array('postnr' => '3117','poststed' => 'Tønsberg'),
-  array('postnr' => '3124','poststed' => 'Tønsberg'),
-  array('postnr' => '3183','poststed' => 'Holmestrand'),
-  array('postnr' => '3229','poststed' => 'Sandefjord'),
-  array('postnr' => '6869','poststed' => 'Hafslo'),
-  array('postnr' => '6899','poststed' => 'Balestrand')
-);
+  print ("<h3>Registrerte poststeder</h3>");
+  print ("<table border=1>");  
+  print ("<tr><th align=left>postnr</th> <th align=left>poststed</th></tr>"); 
+
+  for ($r=1;$r<=$antallRader;$r++)
+    {
+      $rad=mysqli_fetch_array($sqlResultat);  /* ny rad hentet fra sp�rringsresultatet */
+      $postnr=$rad["postnr"];        /* ELLER $postnr=$rad[0]; */
+      $poststed=$rad["poststed"];    /* ELLER $poststed=$rad[1]; */
+
+      print ("<tr> <td> $postnr </td> <td> $poststed </td> </tr>");
+    }
+  print ("</table>"); 
+?>
